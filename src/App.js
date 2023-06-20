@@ -45,14 +45,14 @@ const App = () => {
             path={`${process.env.PUBLIC_URL + "/service/:serviceID"}`}
             component={Servicedetails}
           /> */}
-          {/* <Route
+          <Route
             path={`${process.env.PUBLIC_URL + "/service/:serviceId"}`}
             component={Servicedetails}
-          /> */}
-          <Route
-            path={`${process.env.PUBLIC_URL + "/service/:itemId"}`}
-            component={Gstcalculator}
           />
+          {/* <Route
+            path={`${process.env.PUBLIC_URL + "/service/:serviceId/:itemId"}`}
+            component={Gstcalculator}
+          /> */}
 
           {/* <Route
             exact
