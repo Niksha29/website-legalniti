@@ -29,6 +29,9 @@ import Incometaxcalculator from "./pages/incometaxcalculator";
 import Rdcalculator from "./pages/rdcalculator";
 import Gratuitycalculator from "./pages/gratuitycalculator";
 import Simpleinterstcalcularor from "./pages/simpleinterstcalcularor";
+import Form from "./pages/SpiceForm/spiceform";
+import KeywordForm from "./pages/Keyword-Description-Form/description";
+import Fillip from "./pages/Fillit Form/fillip";
 // import ServiceItemPage from "./templates/itemData/ItemPage";
 // import PageServiceDetails from "./pages/ServiceDetails";
 const App = () => {
@@ -206,6 +209,21 @@ const App = () => {
             exact
             path={`${process.env.PUBLIC_URL + "/"}`}
             component={HomeOne}
+          />
+          <Route
+            exact
+            path={`${process.env.PUBLIC_URL + "/spiceform"}`}
+            component={Form}
+          />
+          <Route
+            exact
+            path={`${process.env.PUBLIC_URL + "/suggestyourname"}`}
+            component={KeywordForm}
+          />
+          <Route
+            exact
+            path={`${process.env.PUBLIC_URL + "/fillip"}`}
+            component={Fillip}
           />
           <Route exact component={Error404} />
         </Switch>
