@@ -1,7 +1,6 @@
 
 .about-first{
     display:flex ;
-   
 }
 
 video{
@@ -11,6 +10,7 @@ video{
   z-index: 2;
   height: auto;
 }
+
 .content__hero_video-wrap-about-wrap {
     background-color: #FFF;
     border-radius: 50px;
@@ -45,10 +45,22 @@ video{
  }
  .aboutcontent-heading{
     text-align: center;
- }
- .aboutcontent-heading{
     font-size: 18px;
  }
+ .aboutcontent-list{
+    text-align: justify;
+
+ }
+ .main-content{
+    
+  margin-right: 8px;
+   
+ }
+ /* li:before{
+    content: "•";
+  margin-right: 8px;
+  font-size: 35px;    
+ } */
 
 
 @media only screen and (max-width: 767px){
@@ -68,7 +80,5 @@ video{
         width: 78%;  
         height: 150px;  
     }
-    video{
-
-    }
+    
 }

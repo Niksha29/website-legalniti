@@ -17,6 +17,10 @@
   height: auto;
   height:max-content;
   margin-top: 55px;
+ img{
+  border-radius: 50px;
+  box-shadow: 0 0 20px rgba(0,0,0,0.9);
+ }
 }
 .single-input-item {
   color: $paragraph;

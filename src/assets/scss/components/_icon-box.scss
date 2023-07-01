@@ -6,6 +6,7 @@
   display: flex;
   align-items: center;
 
+
   @media #{$md-device} {
     display: block;
   }
@@ -20,6 +21,7 @@
       margin-right: 20px;
       flex-basis: 50px;
       width: 50px;
+      
 
       @media #{$md-device} {
         margin-right: 0;
@@ -29,8 +31,10 @@
 
     &__info {
       flex-basis: calc(100% - 50px);
+      
       width: calc(100% - 50px);
-
+      
+      
       @media #{$xl-device} {
         flex-basis: 215px;
         width: 215px;
@@ -45,6 +49,7 @@
         font-weight: 500;
         line-height: 1;
         margin-bottom: 10px;
+        color: black;
       }
     }
   }

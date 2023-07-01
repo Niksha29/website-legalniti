@@ -18,7 +18,7 @@ class FunfactItem extends Component {
   render() {
     return (
       <div className="col-6 col-md-3 text-center">
-        <div className="counter-item">
+        <div className="counter-item ">
           <h2 className="counter-number">
             <CountUp
               start={this.state.appear ? 0 : null}
@@ -32,7 +32,7 @@ class FunfactItem extends Component {
                       this.visibleChangeHandler(isVisible)
                     }
                   >
-                    <span className="sr-only-sign">+</span>
+                    <span className="sr-only-sign">x</span>
                   </VisibilitySensor>
                 </div>
               )}

@@ -24,7 +24,7 @@ function Footer() {
       
         <div className="row mtn-40">
           
-          <div className="col-lg-4 order-4 order-lg-0">
+          <div className="col-lg-4 order-4 order-lg-0 footer-logo">
             <div className="widget-item">
               <div className="about-widget">
                 <Link to={`${process.env.PUBLIC_URL + "/"}`}>
@@ -59,53 +59,14 @@ function Footer() {
             </Widget>
           </div>
 
-          {/* <div className="col-md-4 col-lg-2 ml-auto">
+          <div className="col-md-4 col-lg-2 ml-auto">
             <Widget title="Social Links">
-              <List classes="widget-list">
-                <LI>
-                  
-                  <Link to="https://facebook.com/hasthemes/" target={"_blank"}>
-                    Facebook
-                  </Link>
-                </LI>
-                <LI>
-                  <Link to="https://twitter.com/legal_niti" target={"_blank"}>
-                    Twitter
-                  </Link>
-                </LI>
-                <LI>
-                  <Link to="https://www.linkedin.com/in/legal-niti-20a44b279/" target={"_blank"}>
-                    LinkedIn
-                  </Link>
-                </LI>
-                <LI>
-                  <Link to="https://www.instagram.com/legalniti_ai?utm_source=qr" target={"_blank"}>
-                    Instagram
-                  </Link>
-                </LI>
-              </List>
-            </Widget>
-          </div> */}
-
-          <div className="col-md-4 col-lg-3" style={{color:'white'}}>
-            <Widget title="Contact Us">
-              <address>
-                Legalniti workspace,5th floor PG block BMSCE,Bull temple road,Basavanagudi Bangalore 560019<br />
-                contact@legalniti.com <br />
-                (+91)9481829401,(+91)7371889861
-              </address>
-            </Widget>
-          </div>
-
-        </div>
-        <div className="row" style={{ display: 'flex', justifyContent: 'center',marginTop: '40px',  }}>
-            <div className="col-md-12" style={{ textAlign: 'center' }}>
-              <ul className="thumbnail-widget social-icons" style={{ display: 'flex', justifyContent: 'center' }}>
-                {/* <li>
+              <ul classes="widget-list">
+              <li>
                   <a href="https://wa.me/919091013207" target='blank'>  
-                    <FontAwesomeIcon icon={faWhatsapp} style={{ color: 'black', width: '20px' }} />
+                    <FontAwesomeIcon icon={faWhatsapp} style={{ color: 'white', width: '80px',fontSize: '34px' }} />
                   </a>
-                </li> */}
+                </li>
                 <li>
                   <a href="https://www.instagram.com/legalniti_ai?utm_source=qr" target='blank'>  
                     <FontAwesomeIcon icon={faInstagram} style={{ color: 'white', width: '80px', fontSize: '34px'}} />
@@ -121,14 +82,27 @@ function Footer() {
                     <FontAwesomeIcon icon={faTwitter} style={{ color: 'white', width: '80px', fontSize: '34px'}} />
                   </a>
                 </li>
-                <li>
+                {/* <li>
                   <a href="#" target='blank'>  
-                    {/* <FontAwesomeIcon icon={faFacebook} style={{ color: 'white', width: '20px' }} /> */}
+                    <FontAwesomeIcon icon={faFacebook} style={{ color: 'white', width: '80px' ,fontSize: '34px' }} />
                   </a>
-                </li>
+                </li> */}
               </ul>
-            </div>
+            </Widget>
           </div>
+
+          <div className="col-md-4 col-lg-3" style={{color:'white'}}>
+            <Widget title="Contact Us">
+              <address>
+                Legalniti workspace,5th floor PG block BMSCE,Bull temple road,Basavanagudi Bangalore 560019<br />
+                contact@legalniti.com <br />
+                (+91)9481829401,(+91)7371889861
+              </address>
+            </Widget>
+          </div>
+
+        </div>
+        
       
     </footer>
   );

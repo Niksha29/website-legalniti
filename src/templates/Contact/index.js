@@ -7,7 +7,6 @@ const ContactPage = () => {
     return (
         <div className={'contact-page-area-wrapper sp-y spp'}>
             <div className="contactcontainer">
-
                 <div className='contact-leftitem'>
                     <img src={contactpage} />
                 </div>

@@ -1,5 +1,6 @@
 import React, { Fragment } from "react";
 import Header from "../components/Header";
+import ServiceSlider from "./servicesSlider";
 import Slider from "../components/Slider/home-one/index"
 import PageHeader from "../components/PageHeader";
 import PageAbout from "../components/About/page";
@@ -19,7 +20,8 @@ const PageService = () => {
   return (
     <Fragment>
       <Header />
-      <Slider  url={"https://bigbuddyai-store.s3.ap-south-1.amazonaws.com/AdobeStock_602818268_Video_HD_Preview.mov"}/>
+      <ServiceSlider url={"https://bigbuddyai-store.s3.ap-south-1.amazonaws.com/AdobeStock_602818268_Video_HD_Preview.mov"} />
+      {/* <Slider  url={"https://bigbuddyai-store.s3.ap-south-1.amazonaws.com/AdobeStock_602818268_Video_HD_Preview.mov"}/> */}
       {/* <PageHeader
         bgImg={require("../assets/img/allpages.jpg")}
         title="OUR SERVICES"
