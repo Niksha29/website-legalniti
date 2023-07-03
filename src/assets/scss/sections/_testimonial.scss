@@ -1,14 +1,22 @@
 /*============================
 12. Testimonial Style CSS
 ==============================*/
+.bg-offwhite{
+  margin-top: 0px;
+  margin-bottom: 0px;
+  
+}
 .testimonial-item {
-  background-color: $white;
-  box-shadow: 0 1px 5px 0 rgba(0, 0, 0, 0.11);
+  background-color: white;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+
   display: flex !important;
   align-items: center;
   padding: 40px;
   outline: none;
+border-radius: 50px;
 
+ 
   @media #{$lg-device} {
     padding: 30px 20px;
   }
@@ -95,7 +103,8 @@
   }
 
   &--3{
-    box-shadow: none;
+    box-shadow: 0 0 12px rgba(0, 0, 0, 0.2);
+  
   }
 }
 
@@ -133,6 +142,7 @@
 }
 
 .testimonial-area {
+  background-color: white;
   .section-title {
     @media #{$xl-device} {
       padding-right: 50px;

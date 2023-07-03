@@ -1,9 +1,9 @@
 import React from "react";
-
+import "./feature.css"
 function FeatureItem(props) {
   return (
-    <div className="col-md-4">
-      <div className="icon-box-item">
+    <div className="col-md-4 feature-box">
+      <div className="icon-box-item feature-icon">
         <div className="icon-box__icon">
           <img
             src={require("../../assets/img/" + props.img)}

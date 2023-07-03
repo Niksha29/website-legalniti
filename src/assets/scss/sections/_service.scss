@@ -4,6 +4,8 @@
 
 .service-area-top {
   padding: 110px 0 130px;
+  margin-top: 100px;
+  margin-bottom: 100px;
   position: relative;
   z-index: 1;
 
@@ -18,11 +20,13 @@
   &:before {
     @include overlay($brandColor, 0.9);
     z-index: -1;
+    background-image: url('../../img/service/service.png');
+
   }
 }
 
 .service-content-area {
-  margin-top: -170px;
+  margin-top: -250px;
   position: relative;
   z-index: 1;
 }

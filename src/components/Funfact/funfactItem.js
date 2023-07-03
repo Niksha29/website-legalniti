@@ -18,28 +18,28 @@ class FunfactItem extends Component {
   render() {
     return (
       <div className="col-6 col-md-3 text-center">
-        <div className="counter-item">
+        <div className="counter-item ">
           <h2 className="counter-number">
             <CountUp
               start={this.state.appear ? 0 : null}
               end={this.props.counterNumber}
             >
               {({ countUpRef }) => (
-                <div>
+                <div style={{color:"black"}}>
                   <span ref={countUpRef} />
                   <VisibilitySensor
                     onChange={(isVisible) =>
                       this.visibleChangeHandler(isVisible)
                     }
                   >
-                    <span className="sr-only-sign">+</span>
+                    <span className="sr-only-sign">x</span>
                   </VisibilitySensor>
                 </div>
               )}
             </CountUp>
           </h2>
 
-          <h6 className="counter-txt">{this.props.counterText}</h6>
+          <h6 className="counter-txt" style={{color:"black"}}>{this.props.counterText}</h6>
         </div>
       </div>
     );
