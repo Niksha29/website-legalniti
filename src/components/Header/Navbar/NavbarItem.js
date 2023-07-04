@@ -27,9 +27,9 @@ function NavbarItem(props) {
           
               return (
                 <li key={index} className={`${colClass} ${rowClass}`} style={{
-                  flexBasis: '20%',
-                  padding: '5px',
-                  width: '50%',
+                  // color:'brown',
+                  padding: '1px',
+                  width: '100%',
                   
                 }}>
                   <Link to={`${process.env.PUBLIC_URL + subItem.link}`}>

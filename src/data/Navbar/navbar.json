@@ -58,12 +58,15 @@
         "link": "/npscalculator"
       },
       {
+        "title": "RETIRENMENT PLANNING ",
+        "link": "/retirementcalculator"
+      },
+      {
         "title": "PPF CALCULATOR",
         "link": "/ppfcalculator"
-      },{
-        "title": "RETIRENMENT PLANNING CALCULATOR",
-        "link": "/retirementcalculator"
-      },{
+      },
+      
+      {
         "title": "HRA CALCULATOR",
         "link": "/hracalculator"
       },{
@@ -88,5 +91,11 @@
     "id": 6,
     "title": "Contact",
     "link": "/contact"
+  },
+  {
+    "id": 7,
+    "title": "Documentation",
+    "link": "/documentation"
   }
+  
 ]

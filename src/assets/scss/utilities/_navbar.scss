@@ -5,7 +5,8 @@
 
 .main-menu {
   // align-content: center;
-  justify-content: flex-end;
+  justify-content: center;
+  flex-wrap: nowrap;
 
   &>li {
     margin-right: 25px;
@@ -54,10 +55,13 @@
 
       // Menu Item Arrows
       &:after {
+
         display: flex;
         color: $white;
         content: '\f107';
         font-size: 16px;
+margin-left: 3px;
+
         line-height: 1;
         font-family: $fa-icon;
         // position: absolute;
@@ -68,23 +72,23 @@
       // Sub Menu
       .submenu-nav {
         background-color: $white;
-        box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
-        border-bottom: 2px solid $brandColor;
+        box-shadow: 0 3px 3px rgba(0, 0, 0, 0.5);
+        // border-bottom: 2px solid $brandColor;
         position: absolute;
-        left: -400px;
+        left: -137px;
         top: 24%;
         transform: translateY(50px);
         transition: 0.4s;
         opacity: 0;
         visibility: hidden;
         pointer-events: none;
-        width: 600px;
+        width:230px;
         margin-top: 57px;
         z-index: 99;
-        height: 600px;
+        
+        // height: 600px;
         // background: red;
         // overflow-y:scroll; 
-
 
 
         @media #{$lg-device} {
@@ -105,10 +109,10 @@
           &>a {
             color: $paragraph;
             display: block;
-            font-size: 15px;
+            font-size: 12px;
             letter-spacing: inherit;
             text-transform: capitalize;
-            padding: 10px 20px;
+            padding: 3px 5px;
             background-color: white;
           }
 
