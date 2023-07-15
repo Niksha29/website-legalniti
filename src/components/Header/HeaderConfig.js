@@ -17,7 +17,7 @@ const HeaderConfig = () => {
     <div className="header-action mt-lg-3 text-end">
       {/* <a href="tel:00199823568658" className="tel-no">+998 23568 658</a> */}
       <button onClick={LoginRegHandler} className="btn-cog">
-        {/* <i className="fa fa-cog" /> */}Sign In
+        {/* <i className="fa fa-cog" /> */}Sign in
       </button>
       <button onClick={MobileMenuHandler} className="btn-menu d-lg-none">
         <i className="fa fa-bars" />

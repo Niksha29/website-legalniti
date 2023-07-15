@@ -82,3 +82,22 @@ video{
     }
     
 }
+
+@media (max-width: 767px){
+    .aboutcontent{
+    margin-left: 0px;
+    width: 100%;
+    }
+    .home-two-about-area{
+       display: flex;
+       flex-direction: column;
+       
+    }
+    .align-items-center-about-area{
+        width: 100% !important;
+    height: auto !important;
+    }
+    .content__hero_video-wrap-about-wrap{
+        width: 100%;
+    }
+}

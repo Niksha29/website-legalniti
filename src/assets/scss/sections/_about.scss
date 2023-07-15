@@ -101,13 +101,7 @@
   // background-position: center right;
   // background-repeat: no-repeat;
 
-  @media #{$lg-device, $xlmax-device} {
-    background-size: 1100px auto;
-  }
-
-  @media #{$sm-device, $md-device} {
-    background-image: none !important;
-  }
+  
 
   .about-content{
     padding-top: 100px;
