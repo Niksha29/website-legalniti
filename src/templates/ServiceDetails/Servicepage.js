@@ -16,13 +16,13 @@ import service_data from "../itemData/itemData.js";
 
 const ServiceDetails = () => {
   const serviceID = new URLSearchParams(window.location.search).get("id");
-  console.log(serviceID);
+  // console.log(serviceID);
   const itemIndex = new URLSearchParams(window.location.search).get("item");
-  console.log(itemIndex);
+  // console.log(itemIndex);
   const service = ServicesData.find(
     (serviceItem) => serviceItem.id === parseInt(serviceID)
   );
-  console.log(service);
+  // console.log(service);
   const currentService = ServicesData.indexOf(service);
   let prevService;
   let nextService;
@@ -44,7 +44,7 @@ const ServiceDetails = () => {
   ) {
     currentItemData = service_data[serviceID].items[itemIndex];
   }
-  console.log(currentItemData);
+  // console.log(currentItemData);
 
   return (
     <Fragment>

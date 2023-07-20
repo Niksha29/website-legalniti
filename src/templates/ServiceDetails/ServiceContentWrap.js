@@ -45,7 +45,7 @@ const ServiceContentWrap = ({service,totalService,prevService,nextService}) => {
                         </List>
                     </div>
 
-                    <div className="how-we-works-wrap mt-50 mt-sm-35">
+                    {/* <div className="how-we-works-wrap mt-50 mt-sm-35">
                         <h4>How we work</h4>
                         <Text styles={{marginBottom:20}}>
                             voluptatum deleniti atque corrupti is es et quas stias cepturi sint aete non provident, similique sunt dunt
@@ -66,7 +66,7 @@ const ServiceContentWrap = ({service,totalService,prevService,nextService}) => {
                                 }
                             </div>
                         </div>
-                    </div>
+                    </div> */}
 
                     <div className="pagination-wrap">
                         <ul className="pagination">

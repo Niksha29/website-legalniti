@@ -1,9 +1,9 @@
 [
   {
     "id": 1,
-    "planName": "Free",
-    "currencyType": "$",
-    "planPrice": "00",
+    "planName": "Private Company",
+    "currencyType": "₹",
+    "planPrice": "999",
     "subscribePlan": "mo",
     "planFeatures": [
       "Branding strategy identity",
@@ -15,8 +15,8 @@
   {
     "id": 2,
     "planName": "Small Business",
-    "currencyType": "$",
-    "planPrice": "49",
+    "currencyType": "₹",
+    "planPrice": "1999",
     "subscribePlan": "mo",
     "planFeatures": [
       "Content development",
@@ -28,8 +28,8 @@
   {
     "id": 3,
     "planName": "Professional",
-    "currencyType": "$",
-    "planPrice": "99",
+    "currencyType": "₹",
+    "planPrice": "999",
     "subscribePlan": "mo",
     "planFeatures": [
       "Website and app designing",
