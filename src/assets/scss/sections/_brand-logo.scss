@@ -3,13 +3,20 @@
 =============================*/
 .brand-logo-area{
   margin-top: 0px;
+  
 }
 .brand-logo-item{
+  
   img{
     margin: auto;
     width: 40%;
     box-shadow: 0 0 10px rgba(0,0,0,0.2);
     border-radius: 20px;
+    &:hover {
+      box-shadow: 0 5px 15px rgba(0,0,0,.2);
+      -webkit-transform: scale(1.05);
+      transform: scale(1.05);
+    }
   }
 }
 

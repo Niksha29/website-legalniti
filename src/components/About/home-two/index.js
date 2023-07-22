@@ -7,7 +7,7 @@ import aboutimg from "../../../assets/img/about-3.jpg"
 
 
 
-const About = () => {
+const AboutHeader = () => {
     return (
         <div className="home-two-about-area" >
             
@@ -31,4 +31,4 @@ const About = () => {
     );
 };
 
-export default About;
+export default AboutHeader;

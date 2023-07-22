@@ -7,6 +7,7 @@
 .align-items-center-about-area{
  width: 50%;
  height: 60%;
+ margin-left: 20px;
 
 }
 .about-content {
@@ -97,6 +98,8 @@
 .home-two-about-area{
   background-color: $offWhite;
   display: flex;
+  margin-top: 50px;
+
   //background-image: url('../img/about-2-bg.jpg');
   // background-position: center right;
   // background-repeat: no-repeat;

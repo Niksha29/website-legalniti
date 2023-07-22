@@ -8,7 +8,7 @@ const OurTeam = () => {
             <div className="container">
                 <div className="row align-items-lg-center" style={{textAlign:"center"}}>
                         <Content classes="about-content ml-0" style={{textalign:"center"}}>
-                            <h2>Discover Legal Niti's exceptional team</h2>
+                            <h2>Our team</h2>
                         </Content>
                 </div>
             </div>
