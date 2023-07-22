@@ -15,9 +15,10 @@ video{
     background-color: #FFF;
     border-radius: 50px;
     border: 1px solid #FFF;
-    width: 50%;
+    width: 40%;
     height: 40%;
-   margin: 0;
+   margin: 60px;
+   
 }
 
 .content__hero_video-wrap-about-wrap:before {
@@ -78,7 +79,7 @@ video{
     .content__hero_video-block{
         overflow: hidden;
         width: 78%;  
-        height: 150px;  
+        height: 150px;
     }
     
 }
@@ -96,8 +97,10 @@ video{
     .align-items-center-about-area{
         width: 100% !important;
     height: auto !important;
+    margin: 0 !important;
     }
     .content__hero_video-wrap-about-wrap{
         width: 100%;
+        margin: 0 !important;
     }
 }
